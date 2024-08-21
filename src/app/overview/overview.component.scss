@@ -1,0 +1,14 @@
+div.overview {
+  display: flex;
+  justify-content: center;
+
+  h1.title {
+    font-family: "Moderustic", sans-serif;
+    font-weight: 400;
+  }
+
+  div.routine-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}

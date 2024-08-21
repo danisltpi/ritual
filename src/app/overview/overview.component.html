@@ -1,0 +1,11 @@
+<div class="overview">
+    <h1 class="title">ritual</h1>
+    @if (routineCards.length !== 0) {
+    <div class="routine-cards">
+        @for (card of routineCards; track $index) {
+        {{ card.title}}
+        }
+
+    </div>
+    }
+</div>
